@@ -25,3 +25,5 @@ func (w *HelloWorldWorker) DoTask(_ context.Context) (task.Result, string) {
 	log.Println(w.info)
 	return task.CompleteResult, "task complete!"
 }
+
+
